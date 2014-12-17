@@ -3,6 +3,7 @@ include(../config.pri)
 TEMPLATE = lib
 TARGET = ExtensionSystem
 CONFIG += shared dll
+DEFINES += EXTENSIONSYSTEM_LIBRARY
 
 HEADERS += \
     extensionsystem_global.h \

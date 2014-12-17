@@ -7,10 +7,6 @@ TARGET = $$qtLibraryTarget(%PluginName:l%)
 
 DESTDIR = $$PLUGIN_PATH
 
-INCLUDEPATH += ../../extensionsystem
-
-LIBS *= -lExtensionSystem
-
 HEADERS += \
     %PluginName:l%.%CppHeaderSuffix:l%
 
